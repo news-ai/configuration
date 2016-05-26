@@ -12,7 +12,7 @@ sudo vim /etc/nginx/sites-available/default
 
 ```
 location ~ /.well-known {
-        allow all;
+  allow all;
 }
 ```
 
