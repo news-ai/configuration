@@ -18,6 +18,7 @@ location ~ /.well-known {
 
 ```
 sudo service nginx reload
+cd /opt/letsencrypt
 ./letsencrypt-auto certonly -a webroot --webroot-path=/usr/share/nginx/html -d newsai.org -d www.newsai.org
 sudo ls -l /etc/letsencrypt/live/newsai.org
 sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
