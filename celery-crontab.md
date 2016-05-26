@@ -13,3 +13,5 @@ crontab -e
 ```
 0 */2 * * *  /home/api/restart_celery.sh
 ```
+
+To view the logs: `grep CRON /var/log/syslog`
