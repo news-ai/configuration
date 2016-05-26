@@ -7,7 +7,7 @@ source /var/apps/news-discovery/env/bin/activate && cd /var/apps/news-discovery/
 Run command in terminal:
 
 ```
-sudo crontab -e
+crontab -e
 ```
 
 ```
