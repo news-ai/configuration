@@ -28,7 +28,7 @@ sudo vim /etc/nginx/sites-available/default
 
 server {
   listen 80;
-  server_name example.com www.example.com;
+  server_name newsai.org www.newsai.org;
   return 301 https://$host$request_uri;
 }
 
